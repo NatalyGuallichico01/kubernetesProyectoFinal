@@ -113,7 +113,7 @@ Para su instalación se procede a correr el siguiente comando:
  
   !['port'](./images/port.PNG)
   
-   !['wordpress'](./images/worpressins.PNG)
+   !['wordpress'](./images/wordpressins.PNG)
  
 ## **Failover**
 <p>Para el ejemplo actual minikube mediante los servicios creados en los archivos .yaml mantendrá el número de réplicas que hemos pedido aunque una falle o sea eliminada. Para demostrarlo vamos a eliminar uno de los pods creados mediante el comando:
