@@ -74,10 +74,10 @@
 
 !['dockerHub'](./images/dockerhub.PNG) 
 ## **Kompose**
-<p>Kompose es un software creado por google para que los archivos .yaml necesario para levantar una aplicación en minikube y puedan ser manipuladas por kubernetes, puedan ser creados automaticamente a partir del archivo docker.compose.yml</p>
+<p>Kompose es un software creado por google para que los archivos .yaml necesario para levantar una aplicación en minikube y puedan ser manipuladas por kubernetes, puedan ser creados automaticamente a partir del archivo <em>docker.compose.yml</em></p>
 
 Mendiante el comando:
- - Kompose convert -f docker-compose.yml
+ - <em>Kompose convert -f docker-compose.yml</em>
  
  !['kompose'](./images/kompose.PNG)
  
@@ -85,23 +85,23 @@ Mendiante el comando:
 <p>Minikube es una máquina virtual diseñada por google para realizar pruebas mediante pods con kubernetes, tiene la capacidad de bajar imagenes de docker hub o correr imágenes locales.
 
 Para su instalación se procede a correr el siguiente comando:
-- minikube start --driver=virtualbox --no-vtx-check</p>
+- <em>minikube start --driver=virtualbox --no-vtx-check</em></p>
  !['minikube'](./images/minikube.PNG)
 
 ## **Levantamiento de Wordpress en Minikube**
 <p>Para empezar debemos correr cada uno de los archivos .yaml creados por kompose dentro de minikube con el siguiente comando:
  
- - kubectl apply -f nombrearchivo.yaml </p>
+ - <em>kubectl apply -f nombrearchivo.yaml </em></p>
  
  !['archivos'](./images/archivosyaml.PNG)
  
- <p>Para poder crear el número de réplicas que necesitamos de nuestros contenedores, lo que se debe hacer es dentro de nuestro archivo nombre-deployment.yaml en la línea que dice réplicas poner el número que necesitamos que en este caso para la prueba será de tres. Haciendo que minikube las cree y podamos empezar a trabajar con ellas mediante kubernetes</p>
+ <p>Para poder crear el número de réplicas que necesitamos de nuestros contenedores, lo que se debe hacer es dentro de nuestro archivo <em>nombre-deployment.yaml</em> en la línea que dice réplicas poner el número que necesitamos que en este caso para la prueba será de tres. Haciendo que minikube las cree y podamos empezar a trabajar con ellas mediante kubernetes</p>
  
   !['replicas'](./images/replicas.PNG)
  
 <p>Luego para poder ver el estado de nuestros pods vamos a escribir el siguiente comando:
  
- -kubectl get all
+ -<em>kubectl get all</em>
  
  que nos dará toda la información dentro del clúster.</p>
  
@@ -109,7 +109,7 @@ Para su instalación se procede a correr el siguiente comando:
  
  <p>Después para poder ver lo que está dentro de minikube lo que vamos es a exponer un puerto con el siguiente comando para poder ver desde nuestro navegador el despliegue de la aplicación
  
- -kubectl port-forward svc/wordpress 8001:8080</p>
+ -<em>kubectl port-forward svc/wordpress 8001:8080</em></p>
  
   !['port'](./images/port.PNG)
   
@@ -117,7 +117,7 @@ Para su instalación se procede a correr el siguiente comando:
  
 ## **Failover**
 <p>Para el ejemplo actual minikube mediante los servicios creados en los archivos .yaml mantendrá el número de réplicas que hemos pedido aunque una falle o sea eliminada. Para demostrarlo vamos a eliminar uno de los pods creados mediante el comando:
- - kubectl pod delete idpod</p>
+ - <em>kubectl pod delete idpod</em></p>
 
 !['pod'](./images/podborrado.PNG)
 
