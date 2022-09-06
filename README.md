@@ -127,7 +127,10 @@ Para su instalación se procede a correr el siguiente comando:
 <p>Dentro de los servicios que levantamos se encuentra el balanceador de carga que lo hace minikube. Podemos observarlo a continuación:</p>
 
 !['balance'](./images/balance.PNG)
+ ## **Cotización**
+<p>Los costos para un proyecto como el implementado de una página informativa en wordpress que pueda guardar datos de los usuarios que visiten la página serían los siguientes</p>
 
+!['cotizacion'](./images/cotizacion.PNG)
  
 ## **Enlaces**
 
