@@ -95,6 +95,9 @@ Para su instalación se procede a correr el siguiente comando:
  
  !['archivos'](./images/archivosyaml.PNG)
  
+ <p>Para poder crear el número de réplicas que necesitamos de nuestros contenedores, lo que se debe hacer es dentro de nuestro archivo nombre-deployment.yaml en la línea que dice réplicas poner el número que necesitamos que en este caso para la prueba será de tres. Haciendo que minikube las cree y podamos empezar a trabajar con ellas mediante kubernetes</p>
+ 
+ 
 
 ## **Enlaces**
 
