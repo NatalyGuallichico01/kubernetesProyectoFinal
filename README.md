@@ -88,6 +88,11 @@ Para su instalación se procede a correr el siguiente comando:
 - minikube start --driver=virtualbox --no-vtx-check</p>
  !['minikube'](./images/minikube.PNG)
 
+## **Levantamiento de Wordpress en Minikube**
+<p>Para empezar debemos correr cada uno de los archivos .yaml creados por kompose dentro de minikube con el siguiente comando:
+ -kubectl apply -f nombrearchivo.yaml</p>
+ 
+
 ## **Enlaces**
 
 ['Explicación Técnica de la Arquitectura y funcionalidad'](https://www.youtube.com/watch?v=0h6QKsixGVg)  
