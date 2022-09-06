@@ -7,7 +7,7 @@
 
 <hr/>
 
-#### Acerca del proyecto 
+### **Acerca del proyecto 
 
 <p>El siguiente proyecto consiste en diseñar, implementar y cotizar una solución de balanceo de carga y failover.</p>
 <p>Se realizó una página web en WordPress, dicha aplicación se encuentra replicada en varios nodos dentro de un cluster en Kubernetes. También se realizó una simulación de falla en alguno de los servidores(nodos) para que el orquestador en este caso kubernetes puedo levantar un nuevo servidor automáticamente</p>
