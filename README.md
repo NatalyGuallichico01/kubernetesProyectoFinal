@@ -73,6 +73,12 @@
 - Verificación de las imagenes subidas a Docker Hub
 
 !['dockerHub'](./images/dockerhub.PNG) 
+## **Kompose**
+<p>Kompose es un software creado por google para que los archivos .yaml necesario para levantar una aplicación en minikube y puedan ser manipuladas por kubernetes, puedan ser creados automaticamente a partir del archivo docker.compose.yml
+
+Mendiante el comando:
+ - Kompose convert -f docker-compose.yml
+ </p>
 
 ## **Enlaces**
 
