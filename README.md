@@ -103,9 +103,32 @@ Para su instalación se procede a correr el siguiente comando:
  
  -kubectl get all
  
- que nos dará toda la información dentro del clúster</p>
+ que nos dará toda la información dentro del clúster.</p>
  
  !['pods'](./images/getall.PNG)
+ 
+ <p>Después para poder ver lo que está dentro de minikube lo que vamos es a exponer un puerto con el siguiente comando para poder ver desde nuestro navegador el despliegue de la aplicación
+ 
+ -kubectl port-forward svc/wordpress 8001:8080</p>
+ 
+  !['port'](./images/port.PNG)
+  
+   !['wordpress'](./images/worpressins.PNG)
+ 
+## **Failover**
+<p>Para el ejemplo actual minikube mediante los servicios creados en los archivos .yaml mantendrá el número de réplicas que hemos pedido aunque una falle o sea eliminada. Para demostrarlo vamos a eliminar uno de los pods creados mediante el comando:
+ - kubectl pod delete idpod</p>
+
+!['pod'](./images/podborrado.PNG)
+
+<p>Como se puede observar el pod ha sido eliminado y se ha creado uno nuevo con otro id</p>
+
+##**Balanceador de Carga**
+<p>Dentro de los servicios que levantamos se encuentra el balanceador de carga que lo hace minikube. Podemos observarlo a continuación:</p>
+
+!['balance'](./images/balance.PNG)
+
+ 
 ## **Enlaces**
 
 ['Explicación Técnica de la Arquitectura y funcionalidad'](https://www.youtube.com/watch?v=0h6QKsixGVg)  
