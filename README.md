@@ -76,5 +76,5 @@
 
 ## **Enlaces**
 
-['Arquitectura y funcionalidad'](https://www.youtube.com/watch?v=0h6QKsixGVg)  
+['Explicación Técnica de la Arquitectura y funcionalidad'](https://www.youtube.com/watch?v=0h6QKsixGVg)  
  
