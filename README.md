@@ -1,5 +1,5 @@
 # Kubernetes
-#### Integrantes:
+## Integrantes:
 - Armas Alejandro 
 - Catota Luis
 - Guala Paul 
@@ -7,14 +7,14 @@
 
 <hr/>
  
-### **Acerca del proyecto**
+## **Acerca del proyecto**
 
 <p>El siguiente proyecto consiste en diseñar, implementar y cotizar una solución de balanceo de carga y failover.</p>
 <p>Se realizó una página web en WordPress, dicha aplicación se encuentra replicada en varios nodos dentro de un cluster en Kubernetes. También se realizó una simulación de falla en alguno de los servidores(nodos) para que el orquestador en este caso kubernetes puedo levantar un nuevo servidor automáticamente.</p>
 
 !['wordpress'](./images/helloword.PNG)  
 
-### **Herramientas**
+## **Herramientas**
 <p>Las herramientas utilizadas para el presente proyecto son las siguientes: </p>
 
 - Docker
@@ -37,13 +37,13 @@
 
 <p>Kubernetes y Docker funcionan juntos. Docker proporciona un estándar abierto para empaquetar y distribuir aplicaciones en contenedores. Con Docker, puede crear y ejecutar contenedores, así como almacenar y compartir imágenes de contenedor. Se puede ejecutar fácilmente una compilación de Docker en un clúster de Kubernetes</p>
 
-### **Arquitectura**
+## **Arquitectura**
 
 <p>La arquitectura que se utilizo para el presente proyecto es la siguiente:</p>
 
 !['arquitectura'](./images/arquitectura.jpeg)  
 
-### **Desarrollo**
+## **Desarrollo**
 
 <p>Se procederá a utilizar el archivo <em>doker-compose.yaml</em>, en donde tenemos los servicios que vamos a crear, en este caso tenemos los servicios de wordpress y de mysql, en dicho archivo se encuentran las caracteristicas y especificaciones de las imagenes que crearemos en nuestro docker.</p>
 
