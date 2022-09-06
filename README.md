@@ -135,4 +135,5 @@ Para su instalación se procede a correr el siguiente comando:
 ## **Enlaces**
 
 ['Explicación Técnica de la Arquitectura y funcionalidad'](https://www.youtube.com/watch?v=0h6QKsixGVg)  
+['Manual de usuario del proyecto en WordPress con Kubernetes'](https://youtu.be/8id2tS97x6o)  
  
