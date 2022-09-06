@@ -79,7 +79,7 @@
 Mendiante el comando:
  - Kompose convert -f docker-compose.yml
  </p>
- (./images/kompose.PNG)
+ ! ['kompose'](./images/kompose.PNG)
 
 ## **Enlaces**
 
