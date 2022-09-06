@@ -123,7 +123,7 @@ Para su instalación se procede a correr el siguiente comando:
 
 <p>Como se puede observar el pod ha sido eliminado y se ha creado uno nuevo con otro id</p>
 
-##**Balanceador de Carga**
+## **Balanceador de Carga**
 <p>Dentro de los servicios que levantamos se encuentra el balanceador de carga que lo hace minikube. Podemos observarlo a continuación:</p>
 
 !['balance'](./images/balance.PNG)
