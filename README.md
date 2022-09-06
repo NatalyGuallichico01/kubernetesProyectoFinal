@@ -79,7 +79,14 @@
 Mendiante el comando:
  - Kompose convert -f docker-compose.yml
  
- !['dockerHub'](./images/kompose.PNG)
+ !['kompose'](./images/kompose.PNG)
+ 
+## **Minikube**
+<p>Minikube es una máquina virtual diseñada por google para realizar pruebas mediante pods con kubernetes, tiene la capacidad de bajar imagenes de docker hub o correr imágenes locales.
+
+Para su instalación se procede a correr el siguiente comando:
+- minikube start --driver=virtualbox --no-vtx-check</p>
+ !['minikube'](./images/minikube.PNG)
 
 ## **Enlaces**
 
