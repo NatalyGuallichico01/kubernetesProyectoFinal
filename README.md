@@ -7,12 +7,12 @@
 
 <hr/>
  
-### ** Acerca del proyecto 
+### **Acerca del proyecto**
 
 <p>El siguiente proyecto consiste en diseñar, implementar y cotizar una solución de balanceo de carga y failover.</p>
 <p>Se realizó una página web en WordPress, dicha aplicación se encuentra replicada en varios nodos dentro de un cluster en Kubernetes. También se realizó una simulación de falla en alguno de los servidores(nodos) para que el orquestador en este caso kubernetes puedo levantar un nuevo servidor automáticamente</p>
 
-#### Herramientas
+### **Herramientas**
 <p>Las herramientas utilizadas para el presente proyecto son las siguientes: </p>
 
 - Docker
@@ -35,4 +35,30 @@
 
 <p>Kubernetes y Docker funcionan juntos. Docker proporciona un estándar abierto para empaquetar y distribuir aplicaciones en contenedores. Con Docker, puede crear y ejecutar contenedores, así como almacenar y compartir imágenes de contenedor. Se puede ejecutar fácilmente una compilación de Docker en un clúster de Kubernetes</p>
 
+### **Arquitectura**
 
+<p>La arquitectura que se utilizo para el presente proyecto es la siguiente:</p>
+
+### **Desarrollo**
+
+<p>Se procederá a utilizar el archivo doker-compose.yaml, en donde tenemos los servicios que vamos a crear, en este caso tenemos los servicios de wordpress y de mysql, en dicho archivo se encuentran las caracteristicas y especificaciones de las imagenes que crearemos en nuestro docker.</p>
+
+
+
+<p>Una vez configurado nuestro archivo <m>docker-compose.yaml</m> procederemos a utilizar en nuestra terminal ell siguiente comando <m>docker-compose up -d</m> que nos permitira correr el docker compose y levantar el contenedor, posterior a eso utilizaremos el comando <m>docker ps</m> para poder visualizar los contenedores que estan corriendo</p>
+
+
+
+<p>Ahora crearemos una imagen en nuestro docker a partir de los cambios en el contenedor con el comando <m>docker commit id(el id representa al id de nuestro contendeor)</m> y con el comando <m>docker image ls</m> visualizaremos las imagenes de los contenedores</p>
+
+
+<p>Renombraremos nuestra imagenes creadas con el comando <m>docker image tag id(el id representa el id generador por el contenedor) y el nombre que queremos ponerle, se debe anteponer el nombre de usuario de dockerhub</m> ejemplo <m>docker image tag 102816b1ee7d natilu01/my-sql:latest</m>
+
+- Verficación de la creacion de imagenes en nuestro docker.
+ 
+<p>Parasubir las imagenes a nuestro dockerHub pondemosrealizarlo con el siguiente comando <m>docker push nombre de la imagen </m> o de manera grafica dando click en los tres puntos en la parte derecha de las imagenes creadas  y seleccionar la opción <m>Push to Hub</m> y las imaganes se subiran a nuestro docker Hub.</p>
+
+
+- Verificación de las imagenes subidas a Docker Hub
+
+ 
