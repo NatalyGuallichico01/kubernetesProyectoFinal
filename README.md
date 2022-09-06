@@ -51,7 +51,7 @@
 
 <p>Una vez configurado nuestro archivo <m>docker-compose.yaml</m> procederemos a utilizar en nuestra terminal el siguiente comando <m>docker-compose up -d</m> que nos permitira correr el docker compose y levantar el contenedor, posterior a eso utilizaremos el comando <m>docker ps</m> para poder visualizar los contenedores que estan corriendo</p>
 
-!['comandoDockerCompose'](./images/dockercompose.PNG)  
+!['comandoDockerCompose'](./images/comandoDockerCompose.PNG)  
 
 <p>Ahora crearemos una imagen en nuestro docker a partir de los cambios en el contenedor con el comando <m>docker commit id(el id representa al id de nuestro contendeor)</m> y con el comando <m>docker image ls</m> visualizaremos las imagenes de los contenedores</p>
 
