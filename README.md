@@ -41,7 +41,7 @@
 
 <p>La arquitectura que se utilizo para el presente proyecto es la siguiente:</p>
 
-!['arquitectura'](./images/arquitectura.JPEG)  
+!['arquitectura'](./images/arquitectura.jpeg)  
 
 ### **Desarrollo**
 
@@ -64,13 +64,13 @@
 
 - Verficación de la creacion de imagenes en nuestro docker.
  
- !['dockerImages'](./imagenes/imagenesDocker.PNG)  
+ !['dockerImages'](./images/imagenesDocker.PNG)  
  
 <p>Para subir las imagenes a nuestro dockerHub pondremos realizarlo con el siguiente comando <m>docker push nombre de la imagen </m> o de manera grafica dando click en los tres puntos en la parte derecha de las imagenes creadas  y seleccionar la opción <m>Push to Hub</m> y las imaganes se subiran a nuestro docker Hub.</p>
 
-!['dockerPush'](./imagenes/dockerPush.PNG)  
+!['dockerPush'](./images/dockerPush.PNG)  
 
 - Verificación de las imagenes subidas a Docker Hub
 
-!['dockerHub'](./imagenes/dockerHub.PNG) 
+!['dockerHub'](./images/dockerhub.PNG) 
  
