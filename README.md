@@ -73,4 +73,8 @@
 - Verificación de las imagenes subidas a Docker Hub
 
 !['dockerHub'](./images/dockerhub.PNG) 
+
+## **Enlaces**
+
+['Arquitectura y funcionalidad'](https://www.youtube.com/watch?v=0h6QKsixGVg)  
  
