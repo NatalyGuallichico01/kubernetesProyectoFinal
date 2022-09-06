@@ -99,7 +99,12 @@ Para su instalación se procede a correr el siguiente comando:
  
   !['replicas'](./images/replicas.PNG)
  
-
+<p>Luego para poder ver el estado de nuestros pods vamos a escribir el siguiente comando:
+ 
+ -kubectl get all
+ que nos dará toda la información dentro del clúster</p>
+ 
+ !['pods'](./images/getall.PNG)
 ## **Enlaces**
 
 ['Explicación Técnica de la Arquitectura y funcionalidad'](https://www.youtube.com/watch?v=0h6QKsixGVg)  
