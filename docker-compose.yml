@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+
+  wordpress: 
+    image: wordpress:latest
+    ports:
+      - "8001:80"
+    volumes:
+      - /wordpress:/var/www/html  
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: user
+      WORDPRESS_DB_PASSWORD: p4ssw0rd
+      WORDPRESS_DB_NAME: wordpress
+
+  db:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password  
+    expose:
+     - "3306"
+    volumes:
+      - /db:/var/lib/mysql        
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: user
+      MYSQL_PASSWORD: p4ssw0rd
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+ 
