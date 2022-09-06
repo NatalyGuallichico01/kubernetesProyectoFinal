@@ -4,3 +4,9 @@
 - Catota Luis
 - Guala Paul 
 - Guallichico Nataly
+
+<br/>
+
+### Acerca del proyecto 
+
+
