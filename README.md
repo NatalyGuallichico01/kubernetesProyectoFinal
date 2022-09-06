@@ -91,6 +91,7 @@ Para su instalación se procede a correr el siguiente comando:
 ## **Levantamiento de Wordpress en Minikube**
 <p>Para empezar debemos correr cada uno de los archivos .yaml creados por kompose dentro de minikube con el siguiente comando:
  -kubectl apply -f nombrearchivo.yaml</p>
+ !['archivos'](./images/archivosyaml.PNG)
  
 
 ## **Enlaces**
